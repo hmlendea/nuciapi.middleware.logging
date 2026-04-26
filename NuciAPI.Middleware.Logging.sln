@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{0DB43675-DE4F-415D-A8BF-A737C9D560AB}") = "NuciAPI.Middleware.Logging", "NuciAPI.Middleware.Logging\NuciAPI.Middleware.Logging.csproj", "{961AED34-E2FF-429E-94AE-555B5ED13975}"
+EndProject
+Project("{1738857E-7CBD-4497-ABC7-8573C4BC4E93}") = "NuciAPI.Middleware.Logging.UnitTests", "NuciAPI.Middleware.Logging.UnitTests\NuciAPI.Middleware.Logging.UnitTests.csproj", "{A207D8AC-6F8A-48FF-833F-1023420C23C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{961AED34-E2FF-429E-94AE-555B5ED13975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961AED34-E2FF-429E-94AE-555B5ED13975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961AED34-E2FF-429E-94AE-555B5ED13975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961AED34-E2FF-429E-94AE-555B5ED13975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Debug|x64.Build.0 = Debug|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Release|x64.ActiveCfg = Release|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Release|x64.Build.0 = Release|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{A207D8AC-6F8A-48FF-833F-1023420C23C7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
