@@ -118,7 +118,7 @@ dotnet build NuciAPI.Middleware.Logging.sln
 ### Test
 
 ```bash
-dotnet test NuciAPI.Middleware.Logging.sln
+dotnet test
 ```
 
 ### Pack
