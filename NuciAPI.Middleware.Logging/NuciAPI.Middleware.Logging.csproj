@@ -7,7 +7,7 @@
     <Description>NuciAPI.Middleware.Logging</Description>
     <Authors>Horațiu Mlendea</Authors>
     <Copyright>Copyright 2026 © Horațiu Mlendea</Copyright>
-    <RepositoryUrl>https://github.com/hmlendea/nuciapi.middleware</RepositoryUrl>
+    <RepositoryUrl>https://github.com/hmlendea/nuciapi.middleware.logging</RepositoryUrl>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <PackageTags>REST API</PackageTags>
     <ImplicitUsings>disable</ImplicitUsings>
