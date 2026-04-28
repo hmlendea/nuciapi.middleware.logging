@@ -25,7 +25,7 @@ namespace NuciAPI.Middleware.Logging
                 new LogInfo(MyLogInfoKey.Path, context.Request.Path),
                 new LogInfo(MyLogInfoKey.QueryString, context.Request.QueryString.ToString()),
                 new LogInfo(MyLogInfoKey.IpAddress, ipAddress),
-                new LogInfo(MyLogInfoKey.Hostname, string.Join(',', NetworkUtils.GetHostnames(ipAddress))),
+                new LogInfo(MyLogInfoKey.Hostname, NetworkUtils.GetHostnames(ipAddress)),
                 new LogInfo(MyLogInfoKey.ClientId, TryGetHeaderValue(context.Request, NuciApiHeaderNames.ClientId)),
                 new LogInfo(MyLogInfoKey.RequestId, TryGetHeaderValue(context.Request, NuciApiHeaderNames.RequestId)),
                 new LogInfo(MyLogInfoKey.Timestamp, TryGetHeaderValue(context.Request, NuciApiHeaderNames.Timestamp)),
