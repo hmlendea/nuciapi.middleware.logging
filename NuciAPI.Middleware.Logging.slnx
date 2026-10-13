@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="NuciAPI.Middleware.Logging/NuciAPI.Middleware.Logging.csproj" />
+  <Project Path="NuciAPI.Middleware.Logging.UnitTests/NuciAPI.Middleware.Logging.UnitTests.csproj" />
+</Solution>
