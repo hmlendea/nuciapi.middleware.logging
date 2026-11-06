@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>NuciAPI.Middleware.Logging.ArchitectureTests</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>NuciAPI.Middleware.Logging.ArchitectureTests</Description>
+    <Authors>Horatiu Mlendea</Authors>
+    <Copyright>Copyright 2026 © Horatiu Mlendea</Copyright>
+    <RepositoryUrl>https://github.com/hmlendea/nuciapi.middleware.logging</RepositoryUrl>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageTags>Architecture</PackageTags>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>false</IsPackable>
+    <Nullable>enable</Nullable>
+    <IsTestProject>true</IsTestProject>
+    <ExcludeFromCodeCoverage>true</ExcludeFromCodeCoverage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.14.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.14.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="NUnit" Version="5.0.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="6.3.1" />
+    <PackageReference Include="TngTech.ArchUnitNet.NUnit" Version="0.13.5" />
+    <PackageReference Include="TngTech.ArchUnitNet" Version="0.13.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NuciAPI.Middleware.Logging\NuciAPI.Middleware.Logging.csproj" />
+  </ItemGroup>
+
+</Project>
