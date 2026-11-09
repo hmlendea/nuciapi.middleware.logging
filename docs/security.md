@@ -50,3 +50,11 @@ None — this middleware does not authenticate or authorise requests.
 - Root [SECURITY.md](../SECURITY.md) — repository security policy
 - [Logging](./logging.md) — redaction configuration details
 - [Privacy](../PRIVACY.md) — data handling policy
+
+## Automated Security Scanning
+
+This repository runs automated security scans on every push and pull request to `master`, and weekly on a schedule. The scan includes:
+- **Vulnerable package detection** — `dotnet list package --vulnerable --include-transitive` checks all direct and transitive dependencies for known vulnerabilities
+- **CodeQL static analysis** — GitHub CodeQL analyses the C# codebase for security issues
+
+Results are published to the [Security](https://github.com/hmlendea/nuciapi.middleware.logging/security) tab and the [Actions](https://github.com/hmlendea/nuciapi.middleware.logging/actions/workflows/security.yml) workflow page.

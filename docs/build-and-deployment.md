@@ -24,11 +24,14 @@ dotnet pack NuciAPI.Middleware.Logging/NuciAPI.Middleware.Logging.csproj -c Rele
 
 ### GitHub Actions
 
-No workflow files present in repository. Typical workflow would include:
-1. Build
-2. Test
-3. Pack
-4. Publish to NuGet.org (on tag)
+The following workflows are configured:
+
+| Workflow | Trigger | Purpose |
+|----------|---------|---------|
+| `dotnet.yml` | Push/PR to `master` | Build, restore, test |
+| `security.yml` | Push/PR to `master`, weekly schedule | Vulnerability scan, CodeQL analysis |
+| `nuget-release.yml` | Published release | Publish to NuGet.org |
+| `github-release.yml` | Published release | Upload package to GitHub Release with SHA256 |
 
 ### Versioning
 
